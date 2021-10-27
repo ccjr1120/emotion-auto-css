@@ -8,7 +8,7 @@ You can get the style name prompt in normal format in this code.
 
 ## Features
 
-![exmaple](images/example.jpg)
+![exmaple](images/example.gif)
 ## Release Notes
 ### 1.0.0
 a simple version
