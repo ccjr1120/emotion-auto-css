@@ -3,6 +3,7 @@
   "displayName": "emotion-auto-css",
   "description": "auto fill normal format css in css-in-js",
   "version": "0.0.1",
+  "publisher": "ccjr",
   "repository": {
     "type": "git",
     "url": "https://github.com/ccjr1120/emotion-auto-css.git"
