@@ -2,7 +2,7 @@
   "name": "emotion-auto-css",
   "displayName": "emotion-auto-css",
   "description": "auto fill normal format css in css-in-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ccjr",
   "keywords": [
     "css",
