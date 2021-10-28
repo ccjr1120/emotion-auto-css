@@ -4,6 +4,12 @@
   "description": "auto fill normal format css in css-in-js",
   "version": "0.0.1",
   "publisher": "ccjr",
+  "keywords": [
+    "css",
+    "css-in-js",
+    "emoction",
+    "react"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ccjr1120/emotion-auto-css.git"
@@ -12,7 +18,8 @@
     "vscode": "^1.61.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
   ],
   "activationEvents": [
     "onLanguage:javascript",
