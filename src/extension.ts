@@ -6,9 +6,9 @@ import { provideCompletionItems, resolveCompletionItem } from './prompt';
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-
+  
   let codeCompletion = vscode.languages.registerCompletionItemProvider(
-    'javascript',
+    { pattern: '**/*.{tsx,jsx,js,ts}', scheme: 'file' },
     { provideCompletionItems, resolveCompletionItem }
   );
 

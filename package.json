@@ -2,7 +2,7 @@
   "name": "emotion-auto-css",
   "displayName": "emotion-auto-css",
   "description": "auto fill normal format css in css-in-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ccjr",
   "keywords": [
     "css",
@@ -22,9 +22,7 @@
     "Snippets"
   ],
   "activationEvents": [
-    "onLanguage:javascript",
-    "onLanguage:javascriptreact",
-    "onLanguage:typescript"
+    "*"
   ],
   "main": "./out/extension.js",
   "contributes": {
