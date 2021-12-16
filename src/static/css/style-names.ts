@@ -1,4 +1,4 @@
-export const CSS_STYLE_NAMES = [
+export const STYLE_NAMES = [
   'width',
   'height',
   'margin',

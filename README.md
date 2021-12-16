@@ -1,6 +1,7 @@
 # emotion-auto-css README
 
 if you want it to work in jsx、tsx and ts. You need add this setting in vscode:
+
 ```
 "editor.quickSuggestions": {
     "strings": true
@@ -19,13 +20,12 @@ You can get the style name prompt in normal format in this code.
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.4
 
-a simple version
+make it smarter
 
-### 0.0.2
-
-update README.md
+- Add properties hints for some styles
+- Remove the style name prompt in properties area
 
 ### 0.0.3
 
@@ -36,5 +36,13 @@ fix not prompted in jsx、tsx、ts. But you need add setting this in vscode.
     "strings": true
 }
 ```
+
+### 0.0.2
+
+update README.md
+
+### 0.0.1
+
+a simple version
 
 ---

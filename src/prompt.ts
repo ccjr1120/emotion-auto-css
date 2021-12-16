@@ -7,8 +7,9 @@ import {
   Range,
   TextDocument,
 } from 'vscode';
+import { getPropertiesByStyleName } from './helpers';
 
-import { CSS_STYLE_NAMES } from './static/css/style-names';
+import { STYLE_NAMES } from './static/css/style-names';
 
 export function provideCompletionItems(
   document: TextDocument,
@@ -16,7 +17,16 @@ export function provideCompletionItems(
   token: CancellationToken,
   context: CompletionContext
 ) {
-  return CSS_STYLE_NAMES.map((item) => {
+  const start = new Position(position.line, 0);
+  const range = new Range(start, position);
+  const text = document.getText(range);
+  const resultItems = getPropertiesByStyleName(text);
+  if (resultItems) {
+    return resultItems.map(
+      (item) => new CompletionItem(`${item};`, CompletionItemKind.Property)
+    );
+  }
+  return STYLE_NAMES.map((item) => {
     return new CompletionItem(`${item}: `, CompletionItemKind.Property);
   });
 }
